@@ -29,4 +29,7 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-path'
   use 'tpope/vim-fugitive'
 
+  use 'nvim-orgmode/orgmode'
+  use 'windwp/nvim-autopairs'
+
 end)

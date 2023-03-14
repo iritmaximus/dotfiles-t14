@@ -48,3 +48,4 @@ export LOCAL_BIN="/home/martti/.local/bin"
 export PATH="$FLYCTL_INSTALL/bin:$LUA_EXEC_PATHS:$CARGO_BIN:$LOCAL_BIN:$PATH"
 
 alias luamake=/usr/local/lib/lua-language-server/3rd/luamake/luamake
+. "$HOME/.cargo/env"
