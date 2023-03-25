@@ -28,6 +28,7 @@ alias ls='lsd -l'
 alias ll='lsd'
 alias cat='bat'
 alias firefox='firefox-bin'
+alias venv='source .venv/bin/activate'
 
 # dvorak things
 alias ,.='lsd -l'
