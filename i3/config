@@ -47,7 +47,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+Return exec st
 
 bindsym $mod+q kill
-bindsym $mod+w exec firefox-bin
+bindsym $mod+w exec firefox
 bindsym $mod+e exec emacsclient --socket-name=/tmp/emacs$(id -u)/server -c -a "emacs"
 bindsym $mod+r exec alacritty -e ranger
 bindsym $mod+t layout toggle split
