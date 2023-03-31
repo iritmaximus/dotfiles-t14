@@ -14,13 +14,18 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
+PS1="\[\033[1;34m\]"
+PS1+="[\h@\u] "
+PS1+="(\w) "
+PS1+="\\$\[$(tput sgr0) \]"
+
 # bash prompt
-PS1='\[\033[1;34m\]'
-PS1+='['
-PS1+='\w'
-PS1+=']'
-PS1+='\n\$\[\033[0m\] '
-PS1+=''
+#PS1='\[\033[1;34m\]'
+#PS1+='['
+#PS1+='\w'
+#PS1+=']'
+#PS1+='\n\$\[\033[0m\] '
+#PS1+=''
 
 # Put your fun stuff here.
 
