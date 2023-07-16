@@ -59,6 +59,7 @@ if [ -n "$failsafe" ]; then
  feh --bg-scale ~/.wallpapers &
  picom --experimental-backends --backend glx &
  setterm -blank 60 &
+ exec /usr/local/bin/battery-notification.py &
  exec dbus-launch --exit-with-session i3
  # dwmstatus &
  # exec dbus-launch --sh-syntax --exit-with-session /usr/local/bin/dwm

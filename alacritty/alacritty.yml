@@ -10,7 +10,8 @@
 # to the user's home directory starting with `~/`.
 import:
   # - ~/.config/alacritty/themes/themes/everforest_dark.yml
-  - ~/.config/alacritty/themes/themes/rose-pine.yaml
+  # - ~/.config/alacritty/themes/themes/rose-pine.yaml
+  - ~/.config/alacritty/themes/themes/solarized_dark.yaml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -172,8 +173,8 @@ font:
     #style: Bold Italic
 
   # Point size
-  # size: 11
-  size: 16
+  size: 12
+  # size: 18
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -406,7 +407,7 @@ cursor:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    shape: Underline
+    shape: Block
 
     # Cursor blinking state
     #

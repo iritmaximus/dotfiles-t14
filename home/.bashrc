@@ -29,12 +29,15 @@ alias ll='lsd'
 alias cat='bat'
 alias firefox='firefox-bin'
 alias venv='source .venv/bin/activate'
+alias gst='git st'
+alias gci='git ci'
+alias gp='git push'
 
 # dvorak things
 alias ,.='lsd -l'
 alias ,,='lsd'
 alias ..='lsd'
-alias emacs='emacsclient --socket-name=/tmp/emacs$(id -u)/server -c -a "emacs"'
+# alias emacs='emacsclient --socket-name=/tmp/emacs$(id -u)/server -c -a "emacs"'
 
 
 export NVM_DIR="$HOME/.nvm"
